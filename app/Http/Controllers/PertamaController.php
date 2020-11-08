@@ -11,4 +11,8 @@ class PertamaController extends Controller{
           public function third(){
                     return view('page3');
           }
+          public function index()
+          {
+                    return view('test-tema');
+          }
 }

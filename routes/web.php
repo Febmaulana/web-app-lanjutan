@@ -40,6 +40,12 @@ Route::get("/v3c1", [PertamaController::class, "third"]);
 Route::get("/v1c2", [KeduaController::class, "satu"]);
 Route::get("/v2c2", [KeduaController::class, "dua"]);
 Route::get("/v3c2", [KeduaController::class, "tiga"]);
+
+Route::get("/tema/boostrap", [PertamaController::class, "index"]);
+
+Route::get("/gambar", function () {
+          return '<img src="https://img.icons8.com/cute-clipart/64/000000/rocket.png" width="50%">';
+});
 // Route::get("/", function () {
 //     return view("welcome");
 // });
